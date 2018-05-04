@@ -1,0 +1,12 @@
+fn u32 println(var pu8 s)
+{
+	var pu8 tx;
+	tx = 0xff000000;
+	$tx = $s;
+	s = s + 1;
+}
+
+fn u32 main(var u32 argc, var ps8 argv[4])
+{
+	println:("hello,world");
+}
